@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/Coffee.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+   
+   height: 100vh;
+  
+}
+.loging-box{
+    width: 400px;
+    
+    height: 600px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+.Form{
+    position: absolute;
+    top: 56%;
+    left: 26%;
+    color: wheat;
+}
+.Form > input {
+    background-color: #000;
+}
+.password a{
+     position: relative; 
+    top: 106%;
+    left: 40%;
+    text-decoration: none;
+    
+}
+.loging{
+    position: absolute;
+    top: 52%;
+    left: 39%;
+    color: wheat;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.loging-box p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+.loging-box input[type="tex"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+}
