@@ -6,21 +6,43 @@
 .container{
     /* background-color: rebeccapurple; */
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    /* grid-template-columns: repeat(7,1fr); */
     /* grid-gap: 5px; */
-    background-color: green;
+    /* background-color: green; */
     grid-column-gap: 5px;
     
 }
 .day{
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    grid-gap: 5px;
+    /* grid-gap: 5px; */
     /* grid-column-gap: 5px; */
+    /* background-color: rebeccapurple; */
+    gap: 30px;
 
 }
 .date{
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    grid-row-gap: 5pX;
+    /* grid-row-gap: 5pX; */
+    /* background-color: aqua; */
+    gap: 30px;
+    margin-top: 10px;
+
+}
+.date >div{
+background-color: cyan;
+text-align: center;
+padding: 8px;
+
+}
+.day>div{
+    background-color: cornflowerblue;
+    text-align: center;
+
+}
+.date >div:hover{
+    background-color: gold;
+    transition: all;
+    transition-duration: 500ms;
 }
