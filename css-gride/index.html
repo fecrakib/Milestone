@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 3fr 3fr 3fr; */
+            height:100%;
+            grid-template-rows: 50px 1fr 50px;
+             
+             /* grid-template:repeat(2,1fr) */
+             grid-template-columns: repeat(12,1fr);
+             
+        
+    
+           
+        }
+        .header{
+            grid-column: 1/-1;
+        }
+        .footer{
+            grid-column: 1/-1;
+        }
+        .content{
+            grid-column: 2/-1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="header">HEADER</div>
+    <div class="menu">MENU</div>
+    <div class="content">CONTENT</div>
+    <div class="footer">FOOTER</div>
+  
+    
+    </div>
+</body>
+</html>
