@@ -1,0 +1,26 @@
+*body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+.container{
+    /* background-color: rebeccapurple; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    /* grid-gap: 5px; */
+    background-color: green;
+    grid-column-gap: 5px;
+    
+}
+.day{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 5px;
+    /* grid-column-gap: 5px; */
+
+}
+.date{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-row-gap: 5pX;
+}
